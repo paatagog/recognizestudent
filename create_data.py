@@ -26,7 +26,7 @@ def photos_from_cam():
         if key == 27:
             break
 def photo_from_img():
-    image = cv2.imread("test.png")
+    image = cv2.imread("test.jpg")
     faces(1,image)
 
 haar_file = 'haarcascade_frontalface_default.xml'
